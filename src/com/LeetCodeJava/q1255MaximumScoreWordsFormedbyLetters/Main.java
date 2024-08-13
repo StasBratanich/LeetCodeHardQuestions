@@ -19,7 +19,6 @@ public class Main {
         int[] score3 = {0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0};
 
         Solution solution = new Solution();
-
         // Outputs
         System.out.println(solution.maxScoreWords(words1, letters1, score1)); // Output: 23
         System.out.println(solution.maxScoreWords(words2, letters2, score2)); // Output: 27
