@@ -1,6 +1,5 @@
 package com.LeetCodeJava.q1255MaximumScoreWordsFormedbyLetters;
 
-
 public class Main {
     public static void main(String[] args) {
         // Example 1
