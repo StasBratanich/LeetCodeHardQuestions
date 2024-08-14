@@ -19,8 +19,8 @@ public class Main {
 
         Solution solution = new Solution();
         // Outputs
-        System.out.println(solution.maxScoreWords(words1, letters1, score1)); // Output: 23
-        System.out.println(solution.maxScoreWords(words2, letters2, score2)); // Output: 27
-        System.out.println(solution.maxScoreWords(words3, letters3, score3)); // Output: 0
+        System.out.println(solution.maxScoreWords(words1, letters1, score1)); // Output 23
+        System.out.println(solution.maxScoreWords(words2, letters2, score2)); // Output 27
+        System.out.println(solution.maxScoreWords(words3, letters3, score3)); // Output 0
     }
 }
