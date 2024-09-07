@@ -5,7 +5,7 @@ import java.util.*;
 class Solution {
     public int firstMissingPositive(int[] nums) {
         Arrays.sort(nums);
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         int val = 1;
 
