@@ -16,10 +16,8 @@ public class Solution {
         if (index == words.length) {
             return 0;
         }
-        // Get the max score without the current word
         int maxScore = createWordsPermutations(words, index + 1, counterMap, score);
 
-        // If the current word is valid include it
         int currentWordScore = calculateWordScore(words[index], counterMap, score);
         if (currentWordScore != -1) {
             updateCounterMap(words[index], counterMap, -1);
@@ -46,8 +44,6 @@ public class Solution {
         int wordScore = 0;
         Map<Character, Integer> tempCount = new HashMap<>(counterMap);
 
-        // Check if there are enough occurrences of the letter left to use, if not the word can't be built
-        // Else return the word score and update the value of char key
         for (char c : word.toCharArray()) {
             if (tempCount.getOrDefault(c, 0) <= 0) {
                 return -1;
