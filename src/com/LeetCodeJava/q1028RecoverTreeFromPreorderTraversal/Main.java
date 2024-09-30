@@ -7,17 +7,20 @@ public class Main {
 
         // Example 1
         String traversal1 = "1-2--3--4-5--6--7";
-        // Expected output: The reconstructed binary tree with root value 1
-        System.out.println("Example 1 Result: " + solution.recoverFromPreorder(traversal1));
+        TreeNode result1 = solution.recoverFromPreorder(traversal1);
+        System.out.println("Example 1 Tree:");
+        solution.printTree(result1);
 
         // Example 2
         String traversal2 = "1-2--3---4-5--6---7";
-        // Expected output: The reconstructed binary tree with root value 1
-        System.out.println("Example 2 Result: " + solution.recoverFromPreorder(traversal2));
+        TreeNode result2 = solution.recoverFromPreorder(traversal2);
+        System.out.println("Example 2 Tree:");
+        solution.printTree(result2);
 
         // Example 3
         String traversal3 = "1-401--349---90--88";
-        // Expected output: The reconstructed binary tree with root value 1
-        System.out.println("Example 3 Result: " + solution.recoverFromPreorder(traversal3));
+        TreeNode result3 = solution.recoverFromPreorder(traversal3);
+        System.out.println("Example 3 Tree:");
+        solution.printTree(result3);
     }
 }
