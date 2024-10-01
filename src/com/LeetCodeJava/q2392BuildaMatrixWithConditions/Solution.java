@@ -26,20 +26,6 @@ public class Solution {
                 } else {
                     colList.add(colConditions[i][j]);
                 }
-
-//                if(rowList.contains(rowConditions[i][j])){
-//                    int last = rowList.getLast();
-//                    rowList.removeLast();
-//
-//                    for (int m = 0; m < rowList.size(); m++) {
-//                        if (rowList.get(m) == rowConditions[i][j]){
-//                            rowList.add(m, last);
-//                            m++;
-//                        }
-//                    }
-//                } else {
-//                    rowList.add(rowConditions[i][j]);
-//                }
             }
         }
 
