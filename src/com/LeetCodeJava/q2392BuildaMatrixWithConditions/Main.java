@@ -27,15 +27,15 @@ public class Main {
                 {2, 1}
         };
 
-//        // Call your function with Example 1
-//        int[][] result1 = solution.buildMatrix(k1, rowConditions1, colConditions1);
-//        System.out.println("Example 1 Result:");
-//        printMatrix(result1);
-//
-//        // Call your function with Example 2
-//        int[][] result2 = solution.buildMatrix(k2, rowConditions2, colConditions2);
-//        System.out.println("Example 2 Result:");
-//        printMatrix(result2);
+        // Call your function with Example 1
+        int[][] result1 = solution.buildMatrix(k1, rowConditions1, colConditions1);
+        System.out.println("Example 1 Result:");
+        printMatrix(result1);
+
+        // Call your function with Example 2
+        int[][] result2 = solution.buildMatrix(k2, rowConditions2, colConditions2);
+        System.out.println("Example 2 Result:");
+        printMatrix(result2);
 
         // Example 3
         int k3 = 8;
@@ -52,19 +52,6 @@ public class Main {
         int[][] result3 = solution.buildMatrix(k3, rowConditions3, colConditions3);
         System.out.println("Example 3 Result:");
         printMatrix(result3);
-
-
-        System.out.print("[\n[0,0,0,0,0,0,7,0],\n" +
-                        "[0,6,0,0,0,0,0,0],\n" +
-                        "[0,0,5,0,0,0,0,0],\n" +
-                        "[0,0,0,4,0,0,0,0],\n" +
-                        "[8,0,0,0,0,0,0,0],\n" +
-                        "[0,0,0,0,0,0,0,1],\n" +
-                        "[0,0,0,0,0,3,0,0],\n" +
-                        "[0,0,0,0,2,0,0,0]\n]"
-        );
-
-
     }
 
     public static void printMatrix ( int[][] matrix){
